@@ -1,13 +1,16 @@
 type UserOne = {
-    age: number;
-    username: string;
-    toggle: boolean;
-    empty: null;
-  };
-  
-  const callback = (a: number): number => {
-    return 100 + a;
-  };
-  
-  console.log(callback(6)); 
-  
+  age: number;
+  username: string;
+  toggle: boolean;
+  empty: null;
+};
+
+
+const exampleUser: UserOne = {
+  age: 30,
+  username: 'exampleUser',
+  toggle: true,
+  empty: null,
+};
+
+console.log(exampleUser);
